@@ -1,0 +1,51 @@
+#calc {
+    border: 2px solid black;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.screen {
+    width: 100%;
+    background-color: black;
+    color: greenyellow;
+    text-align: right;
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+.btn {
+    width: 26%;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+    cursor: pointer;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.btn.clear {
+    background-color: darkred;
+    width: 50%;
+    border-radius: 0;
+}
+
+.btn.equal {
+    background-color: darkblue;
+    
+    border-radius: 0;
+}
